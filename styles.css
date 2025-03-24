@@ -12,6 +12,8 @@ body {
 
 .howToPlay {
   border: none;
+    font-family: "Press Start 2P", cursive;
+
   background-color: transparent;
   color: white;
   cursor: default;
