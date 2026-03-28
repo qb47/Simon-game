@@ -86,6 +86,7 @@ function startOver() {
   gamepattern = [];
   userClickedPattern = [];
   started = false;
-  $("h1").text("Press A Key to Start");
+  $("h1").text("Press A Key On The Keyboard To Start
+");
   alert("Start new game?");
 }
