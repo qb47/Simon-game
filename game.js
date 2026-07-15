@@ -50,6 +50,15 @@ document.addEventListener("keypress", function () {
     started = true;
   }
 });
+
+function startGame() {
+  if (!started) {
+    document.querySelector("h1").textContent = "Level " + level;
+    nextSequence();
+    started = true;
+  }
+}
+
 function howToPlay() {
   alert(
     "the game starts after you keypress a button, you have to follow the flashing buttons and remember the sequence in which it was flashed "
